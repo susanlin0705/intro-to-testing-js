@@ -15,3 +15,22 @@ function sayHello(name) {
     return "say hello"
 
 }
+
+function sayHello(input) {
+    // if (input ==="Jane"){
+    //     return "Hello, Jane!"
+    // }else if (input ==="Alex"){
+    //     return "Hello, Alex!";
+    // }else if (input==="Pat"){
+    //     return "Hello, Pat!";
+    // }else{
+        return "Hello, " + input + "!";
+}
+
+
+
+
+
+
+
+
