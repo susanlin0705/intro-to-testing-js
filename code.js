@@ -11,12 +11,16 @@ function add(a,b) {
     }
 }
 
-function sayHello(name) {
+function sayHello(input) {
     return "say hello"
 
 }
 
 function sayHello(input) {
+    if (input===undefined || input===true || input===false  )
+        return "Hello, World!";
+
+        return "Hello, " + input + "!";
     // if (input ==="Jane"){
     //     return "Hello, Jane!"
     // }else if (input ==="Alex"){
@@ -24,8 +28,10 @@ function sayHello(input) {
     // }else if (input==="Pat"){
     //     return "Hello, Pat!";
     // }else{
-        return "Hello, " + input + "!";
 }
+
+
+
 
 
 
